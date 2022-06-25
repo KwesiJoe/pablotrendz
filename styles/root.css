@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* mobile */
+
+#shipping {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgb(229, 232, 228);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: rgb(6, 6, 6);
+  font-weight: 400;
+  line-height: 1.33;
+  text-transform: uppercase;
+  letter-spacing: 0.083em;
+}
+#main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 2rem;
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(114, 120, 113);
+  cursor: pointer;
+}
+
+.desktop-call-btn{
+  display: none;
+}
+
+h1 {
+  font-size: 22px;
+  line-height: 1.45;
+  font-family: 'League Spartan', arial, helvetica, sans-serif;
+  color: rgb(27, 27, 27);
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+#nav-container {
+  display: none;
+}
+/* main goes here
+
+main */
+
+footer {
+  background-color: rgb(229, 232, 228);
+}
+
+.footer-div{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 1rem;
+  align-items: center;
+  padding: 2rem 1rem;
+  margin: auto;
+}
+
+.copyright, .credits{
+  color: rgb(114, 120, 113);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.33;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+.instagram{
+  color: #E1306C;;
+}
+
+
+
+
+/* tablet */
+@media screen and (min-device-width: 480px) {
+  .desktop-call-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 6rem;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(114, 120, 113);
+    border-radius: 5px;
+    font-family: 'League Spartan', arial, helvetica, sans-serif;
+    color: rgb(114, 120, 113);
+    text-align: center;
+    text-transform: capitalize;  
+  }
+
+  .mobile-call-btn{
+    display: none;
+  }
+}
+
+/* desktop */
+@media screen and (min-device-width: 1024px) {
+  .footer-div{
+    flex-direction: row;
+    justify-content: unset;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .copyright{
+    width: 33.333%;
+    text-align: unset;
+  }
+
+  .socials{
+    width: 33.333%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .credits{
+    width: 33.333%;
+    text-align: end;
+  }
+
+}
