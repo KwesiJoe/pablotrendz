@@ -11,7 +11,7 @@
 #shipping {
   display: flex;
   justify-content: center;
-  align-content: center;
+  text-align: center;
   padding-top: 12px;
   padding-bottom: 12px;
   background-color: rgb(229, 232, 228);
@@ -61,12 +61,25 @@ a {
 #nav-container {
   display: none;
 }
-/* main goes here
 
-main */
+.btn{
+  height: 3rem;
+}
+
+.svg-dsgn{
+	height: 2rem;
+	width: 4rem;
+	color: #EEEEEE;
+	z-index: 1;
+  }
+  
+  .svg-dsgn-up{
+	color: white;
+  }
 
 footer {
-  background-color: rgb(229, 232, 228);
+  background-color: #EEEEEE;
+
 }
 
 .footer-div{
@@ -78,20 +91,31 @@ footer {
   align-items: center;
   padding: 2rem 1rem;
   margin: auto;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .copyright, .credits{
   color: rgb(114, 120, 113);
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.33;
   text-transform: uppercase;
   text-align: center;
 }
 
+.socials{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
 
 .instagram{
   color: #E1306C;;
+}
+
+.twitter{
+  color: #1DA1F2;
 }
 
 

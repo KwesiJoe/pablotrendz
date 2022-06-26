@@ -7,17 +7,33 @@
     <title>pablotrendz</title>
     <!-- asset and style links -->
     <script src="https://kit.fontawesome.com/b90b565036.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../styles/root.css">
-    <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="stylesheet" href="./styles/root.css">
+    <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
     <header>
-        <div id="shipping">FREE SHIPPING ON ALL ORDERS OVER $50!</div>
-        <!-- https://www.w3schools.com/howto/howto_js_mobile_navbar.asp -->
-        <a href="javascript:void(0);" id="nav-icon" onclick="showNav()">
-            <i class="fa fa-bars fa-2x"></i>
-        </a>
+        <div id="shipping">FREE SHIPPING ON ALL ORDERS OVER GH₵400!</div>
+        <div id="main-header">
+            <!-- https://www.w3schools.com/howto/howto_js_mobile_navbar.asp -->
+            <a href="javascript:void(0);" id="nav-icon" onclick="showNav()">
+                <div class="icon open-nav-icon">
+                    <i class="fa fa-bars fa-2x"></i>
+                </div>
+            </a>
+            <a href="./index.html" class="header-one">
+                <h1>Pablotrendz Sports Store</h1>
+            </a>
+            <a href="tel:+233246594170" class="call">
+                <div class="mobile-call-btn icon">
+                    <i class="fa-solid fa-square-phone-flip fa-2x"></i>
+                </div>
+                <div class="desktop-call-btn">call us</div>
+            </a>
+        </div>
         <div id="nav-container">
+            <div class="icon close-nav-icon">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
             <nav>
                 <ul>
                     <li><a href="../index.html">home</a></li>
@@ -27,17 +43,23 @@
                 </ul>
             </nav>
         </div>
-        <p>Pablotrendz Sports Store</p>
     </header>
     <main>
 
     </main>
     <footer>
-        <div>COPYRIGHT © 2022 PABLOTRENDZ - ALL RIGHTS RESERVED.</div>
-        <div class="socials">
-            <i class="fa-brands fa-instagram"></i>
+        <div class="footer-div">
+            <div class="copyright">copyright © 2022 pablotrendz - all rights reserved.</div>
+            <div class="socials">
+                    <a target="_blank" href="https://www.instagram.com/pablotrendzz" class="instagram">
+                        <i class="fa-brands fa-instagram fa-2x"></i>
+                    </a> 
+                    <a target="_blank" href="https://www.twitter.com/pablotrendz" class="twitter">
+                        <i class="fa-brands fa-twitter fa-2x"></i>
+                    </a>
+            </div>
+            <div class="credits">powered by kando solutions</div>
         </div>
-        <div>POWERED BY KANDO SOLUTIONS</div>
     </footer>
 </body>
 </html>
