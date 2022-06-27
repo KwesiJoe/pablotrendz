@@ -64,6 +64,14 @@ a {
 
 .btn{
   height: 3rem;
+  width: 100%;
+}
+
+.text-field{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid rgb(226, 226, 226);
 }
 
 .svg-dsgn{
@@ -79,7 +87,7 @@ a {
 
 footer {
   background-color: #EEEEEE;
-
+  margin-top: -9px;
 }
 
 .footer-div{
