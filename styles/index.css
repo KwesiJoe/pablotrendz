@@ -1,132 +1,174 @@
 /* main goes here*/
 
 main{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-  }
-  
-  .hero {
-	/* background-image: url("../images/hero-img.jpeg"); */
-    background-color: black;
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-    height: 30rem;
-	padding-top: 2rem;
-    padding-bottom: 2rem;
-	margin-top: -31px;
-    margin-bottom: 2rem;
-  }
-  
-  .hero-content{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
-	width: 90%;
-    row-gap: 1rem;
-	margin-left: auto;
-	margin-right: auto;
-  }
+display: flex;
+flex-direction: column;
+align-items: center;
+}
 
-  .hero-content div{
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 22px;
-	color: rgb(255, 255, 255);
-	text-align: center;
-	line-height: 1.45;
-	font-weight: 400;
-  }
-  
-  strong{
-	display: block;
-	width: 90%;
-	font-size: 40px;
-	line-height: 1.42;
-	color: rgb(255, 255, 255);
+.hero {
+/* background-image: url("../images/hero-img.jpeg"); */
+background-color: black;
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+height: 30rem;
+padding-top: 2rem;
+padding-bottom: 2rem;
+margin-top: -31px;
+margin-bottom: 2rem;
+}
+
+.hero-content{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+width: 90%;
+row-gap: 1rem;
+margin-left: auto;
+margin-right: auto;
+}
+
+.hero-content div{
+font-family: Helvetica, Arial, sans-serif;
+font-size: 22px;
+color: rgb(255, 255, 255);
+text-align: center;
+line-height: 1.45;
+font-weight: 400;
+}
+
+strong{
+display: block;
+width: 90%;
+font-size: 40px;
+line-height: 1.42;
+color: rgb(255, 255, 255);
+font-family: 'League Spartan', arial, helvetica, sans-serif;
+font-weight: bold;
+text-align: center;
+}
+
+.shop-online{
+width: 90%;
+}
+
+.shop-online-btn{
+width: 100%;
+background-color: rgb(229, 232, 228);
+color: rgb(0, 0, 0);
+border: 0px;
+font-family: Helvetica, arial, sans-serif;
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+cursor: pointer;
+text-transform: uppercase;
+}
+
+.main-main{
+display: flex;
+flex-direction: column;
+align-content: center;
+row-gap: 3rem;
+width: 90%;
+margin: auto;
+}
+
+.products {
+display: flex;
+flex-direction: column;
+row-gap: 1.5rem;
+}
+
+.product-img{
+height: 20rem;
+width: 100%;
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+.new-products {
+background-image: url("../images/jersey2.jpg");
+}
+
+.most-popular {
+background-image: url("../images/jersey7.jpg");
+}
+
+.best-value {
+background-image: url("../images/jersey3.jpg");
+}
+.ig-feed{
+display: flex;
+flex-direction: column;
+align-items: center;
+row-gap: 2rem;
+}
+
+h3{
+color: rgb(143, 150, 140);
+line-height: 1.27;
+font-family: 'League Spartan', arial, helvetica, sans-serif;
+font-weight: bolder;
+text-align: center;
+line-height: 1.27;
+font-size: 32px;
+}
+
+/* remove after feed implementation */
+.ig-feed div{
+	height: 14rem;
+	display: flex;
+	flex-direction: column;
+	row-gap: 7rem;
+	align-items: center;
+}
+
+.ig-feed div{
 	font-family: 'League Spartan', arial, helvetica, sans-serif;
-	font-weight: bold;
-	text-align: center;
-  }
-
-  .shop-online{
-	width: 100%;
-  }
-
-  .shop-online-btn{
-	width: 100%;
-	background-color: rgb(229, 232, 228);
-	color: rgb(0, 0, 0);
-	border: 0px;
-	font-family: Helvetica, arial, sans-serif;
-	font-weight: 700;
-	font-size: 14px;
-	letter-spacing: 1px;
-	cursor: pointer;
-	text-transform: uppercase;
-  }
-
-  .main-main{
-	display: flex;
-	flex-direction: column;
-	align-content: center;
-	row-gap: 2rem;
-	width: 90%;
-	margin: auto;
-  }
-
-  .products {
-	display: flex;
-	flex-direction: column;
-	row-gap: 2rem;
-  }
-
-  .product-img{
-	height: 16rem;
-	width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .new-products {
-	background-image: url("../images/jersey1.jpg");
-  }
-
-  .most-popular {
-	background-image: url("../images/jersey2.jpg");
-  }
-
-  .best-value {
-	background-image: url("../images/jersey3.jpg");
-  }
-  .ig-feed{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-  }
+	color: rgb(27, 27, 27);
+	font-size: 20px;
+}
 
 .vip-list{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 1rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+row-gap: 1rem;
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.vip-list p{
+	font-family: 'League Spartan', arial, helvetica, sans-serif;
+	color: rgb(27, 27, 27);
+	font-size: 18px;
+	text-align: center;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    row-gap: 1rem;
-    width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 2rem;
+margin-bottom: 2rem;
+row-gap: 1rem;
+width: 100%;
 }
 
 .text-field{
-    width: 100%;
+width: 100%;
 }
 
-.submit-btn{
-    border: none;
+.sign-up-btn{
+border: none;
+font-weight: 700;
+color: rgb(27, 27, 27);
+}
+
+,form-input{
+	/* position: relative; */
 }

@@ -67,11 +67,28 @@ a {
   width: 100%;
 }
 
+/* label{
+  transition: all 0.15s ease 0s;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+} */
+
 .text-field{
   border-top: none;
   border-right: none;
   border-left: none;
   border-bottom: 1px solid rgb(226, 226, 226);
+  font-size: 16px;
+  line-height: 1.71;
+  color: rgb(71, 71, 71);
+  font-family: Helvetica, arial, sans-serif;
+  vertical-align: middle;
+  line-height: 1.71;
+}
+
+h3 {
+  font-size: 28px;
 }
 
 .svg-dsgn{
