@@ -9,6 +9,11 @@
     <script src="https://kit.fontawesome.com/b90b565036.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles/root.css">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- scripts -->
+    <script src="./scripts/navigation.js"></script>
+    
 </head>
 <body>
     <header>
@@ -31,8 +36,8 @@
             </a>
         </div>
         <div id="nav-container">
-            <div class="icon close-nav-icon">
-                <i class="fa-solid fa-xmark"></i>
+            <div class="icon close-nav-icon" onclick="showNav()">
+                <i class="fa-solid fa-2x fa-xmark"></i>
             </div>
             <nav>
                 <ul>
@@ -45,8 +50,21 @@
         </div>
     </header>
     <main>
-        <svg data-ux="SVG" class="svg-dsgn-up svg-dsgn"><g fill="currentColor" fill-rule="evenodd" width="53" height="24"><path d="M26.5 24L53 0H0z"></path></g></svg>
         <div class="hero">
+            <div class="owl-carousel owl-theme">
+                <div class="item"><h4>1</h4></div>
+                <div class="item"><h4>2</h4></div>
+                <div class="item"><h4>3</h4></div>
+                <div class="item"><h4>4</h4></div>
+                <div class="item"><h4>5</h4></div>
+                <div class="item"><h4>6</h4></div>
+                <div class="item"><h4>7</h4></div>
+                <div class="item"><h4>8</h4></div>
+                <div class="item"><h4>9</h4></div>
+                <div class="item"><h4>10</h4></div>
+                <div class="item"><h4>11</h4></div>
+                <div class="item"><h4>12</h4></div>
+            </div>
             <div class="hero-content">
                 <div>
                     Connect with quality products!
@@ -83,13 +101,12 @@
                 <form action="">
                     <div class="form-input">
                         <label for="email">Email</label>
-                        <input type="text" id="email" name="email" class="text-field">
+                        <input type="email" id="email" name="email" class="text-field">
                     </div>
                     <input type="submit" value="SIGN UP" class="btn sign-up-btn">
                 </form>
             </div>
         </div>
-        <svg data-ux="SVG" class="svg-dsgn-down svg-dsgn"><g fill="currentColor" fill-rule="evenodd" width="53" height="24"><path d="M26.5 0 L53 24H0z"></path></g></svg>
     </main>
     <footer>
         <div class="footer-div">
@@ -105,5 +122,8 @@
             <div class="credits">powered by kando solutions</div>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./scripts/carousel.js"></script>
 </body>
 </html>
